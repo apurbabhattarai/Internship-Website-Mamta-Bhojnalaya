@@ -1,0 +1,130 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+}
+
+/* Background */
+body::before{
+    content: "";
+    background: url('../Images/BG\ for\ our\ menu.jpg') center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+/* Title */
+.top{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 28px 0px;
+}
+
+.return{
+    padding: 5px 37px;
+    font-size: 0.9rem;
+}
+
+.our-menu{
+    padding: 0px 502px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.return a:hover{
+    position: relative;
+    bottom: 2px;
+    text-decoration: underline;
+}
+
+/* Menu styling */
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual food styling */
+.food {
+    min-height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffffb9;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.food-name h2{
+    margin-bottom: 15px;
+    position: relative;
+    top: 4px;
+}
+
+/* Food box content styling */
+.about-food{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+}
+
+.items{
+    flex: 1;
+}
+
+ul{
+    list-style: none;
+}
+
+.food-items{
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 32px;
+}
+
+.food-items li{
+    padding: 3px 3px;
+}
+
+th,td{
+    padding: 3px 15px;
+}
+
+#other  table tr th{
+    position: relative;
+    left: 34px;
+}
+
+tr{
+    text-align: center;
+}
+
+.prices{
+    flex: 1;
+    text-align: right;
+    position: relative;
+    left: 70px;
+}
+
+#roti-price{
+    position: relative;
+    left: 100px;
+}

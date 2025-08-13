@@ -1,0 +1,91 @@
+@media (max-width: 1024px) {
+    
+    .menu {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .our-menu {
+        padding: 0px 200px;
+    }
+
+    .prices {
+        left: 40px;
+    }
+
+    #roti-price {
+        left: 60px;
+    }
+     body::before{
+    height: 162%;
+     }
+}
+
+@media (max-width: 768px) {
+    
+     body::before{
+    height: 300%;
+     }
+
+    .menu {
+        grid-template-columns: 1fr;
+    }
+
+    .top {
+        flex-direction: column;
+        align-items: center;
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .our-menu {
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .about-food {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    .prices {
+        text-align: center;
+        left: 0;
+        margin-top: 10px;
+    }
+
+    #roti-price {
+        left: 0;
+    }
+
+    #other table tr th {
+        left: 0;
+    }
+
+    .food-items {
+        top: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .food {
+        padding: 10px;
+    }
+
+    .food-name h2 {
+        font-size: 1.2rem;
+    }
+
+    th, td {
+        padding: 2px 8px;
+        font-size: 0.9rem;
+    }
+
+    .return {
+        padding: 5px 15px;
+        font-size: 0.8rem;
+    }
+}

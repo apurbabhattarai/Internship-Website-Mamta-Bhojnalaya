@@ -1,0 +1,210 @@
+/* Tablet*/
+@media (max-width: 768px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .name h1 {
+        font-size: 1.5rem;
+        padding: 0;
+        text-align: center;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .nav {
+        padding: 8px 15px;
+        font-size: 1rem;
+    }
+
+    /* Description */
+    .description {
+        padding: 40px 20px;
+        font-size: 0.95rem;
+    }
+
+    .about-us {
+        padding: 0 15px;
+    }
+
+    /* Special foods */
+    .specialfoods {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .special-food {
+        flex: 1 1 250px;
+        max-width: 300px;
+    }
+
+    /* Contact Info */
+    .contact-info {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+
+.menu::before{
+    width: 125%;
+    height: 226%;
+}
+
+.rating{
+    position: relative;
+    top: -4px;
+    left: 1px;
+}
+
+.contact-us::before {
+    height: 61%;
+    width: 125%;
+}
+}
+
+@media(max-width: 1246px){
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .name h1 {
+        font-size: 1.5rem;
+        padding: 0;
+        text-align: center;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .nav {
+        padding: 8px 15px;
+        font-size: 1rem;
+    }
+
+    /* Description */
+    .description {
+        padding: 40px 20px;
+        font-size: 0.95rem;
+    }
+
+    .about-us {
+        padding: 0 15px;
+    }
+
+    /* Special foods */
+    .specialfoods {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .special-food {
+        flex: 1 1 250px;
+        max-width: 300px;
+    }
+
+    /* Contact Info */
+    .contact-info {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+
+.menu::before{
+    width: 125%;
+    height: 146%;
+}
+
+.rating{
+    position: relative;
+    top: -4px;
+    left: 1px;
+}
+
+.contact-us::before {
+    height: 61%;
+    width: 125%;
+}
+}
+
+
+/* Phone*/
+@media (max-width: 480px) {
+    /* Header stacked */
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        padding: 8px 0;
+    }
+
+    /* Description */
+    .description {
+        padding: 30px 15px;
+        font-size: 0.9rem;
+    }
+
+    .about-us {
+        padding: 0 10px;
+    }
+
+    /* Special foods full width */
+    .special-food {
+        max-width: 100%;
+    }
+
+    .special-food-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .extra {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Contact Info stacked */
+    .contact-info {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .number {
+        text-align: center;
+    }
+
+
+.menu::before{
+    width: 125%;
+    height: 226%;
+}
+
+.rating{
+    position: relative;
+    top: -4px;
+    left: 1px;
+}
+
+.contact-us::before {
+    height: 61%;
+    width: 125%;
+}
+}

@@ -1,0 +1,206 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+/* Background Image- top */
+.top::before{
+    content: "";
+    background: url('../Images/top\ background.jpg') center center/cover no-repeat;
+    z-index: -3;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 0.7;
+}
+
+/* Header */
+.header{
+    font-family: Sansation;
+    display: flex;
+    color: black;
+    padding: 30px 0px;
+}
+
+.name h1{
+    font-family: Montserrat;
+    padding: 0px 215px;
+    color: black;
+    font-size: 28px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    padding: 0px 40px;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    padding: 0px 57px;
+    font-size: 1.3rem;
+}
+
+/* Description */
+.description{
+    font-family: Roboto;
+    text-align: center;
+    justify-content: center;
+    padding: 137px;
+    font-size: 1.09rem;
+    color: #2c2a2a;
+}
+
+.about-us {
+    padding: 0px 124px;
+}
+
+/* Menu */
+.menu::before{
+    content: "";
+    background-color: white;
+    z-index: -2;
+    position: absolute;
+    height: 125%;
+    width: 100%;
+}
+
+.menu{
+    padding: 45px 0px;
+    font-family: Sansation;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-menu-title{
+    text-align: center;
+}
+
+.our-menu-title h2{
+    font-size: 2.2em;
+    padding: 23px 0px;
+}
+
+.our-menu-title p#our-special{
+    font-size: 1.3em;
+    padding: 0px 0px;
+}
+
+/* Special foods */
+.specialfoods{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0px;
+    justify-content: center;
+}
+
+.special-food{
+    padding: 0px 55px;
+}
+
+.special-food-text{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px 0px;
+}
+
+.special-food-img img{
+    height: 250px;
+}
+
+.table table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table tr th{
+    padding: 3px 12px;
+    text-decoration: underline;
+}
+
+th , td{
+    text-align: center;
+}
+
+td{
+    padding: 5px 0px;
+}
+
+.rating{
+    font-size: 1.1rem;
+    text-align: center;
+    color: rgb(202, 158, 0);
+    position: relative;
+    left: 52px;
+    top: 27px;
+}
+
+.extra{
+    display: flex;
+}
+
+/* Button Styling */
+
+.all-meals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-meals a button{
+    text-align: center;
+    padding: 11px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.all-meals a button:hover{
+    background-color: rgb(242, 241, 241);
+}
+
+/* Contact Us */
+.contact-us::before{
+    content: "";
+    background: url('../Images/Contact\ us.jpg') center center/cover;
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.contact-us{
+    font-family: Montserrat;
+}
+
+.contact{
+    text-align: center;
+    padding: 34px 0px;
+    font-size: 1.09rem;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-infos{
+    padding: 16px 101px;
+}
+
+.number{
+    display: flex;
+}
+
